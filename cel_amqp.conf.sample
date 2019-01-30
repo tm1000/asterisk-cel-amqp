@@ -1,0 +1,8 @@
+;
+; cel_amqp.conf
+;
+
+[global]
+;connection = bunny     ; Connection name in amqp.conf
+;queue = asterisk_cel   ; Queue name to publish to; defaults to asterisk_cel
+;exchange =             ; Exchange to publish to; defaults to empty string
