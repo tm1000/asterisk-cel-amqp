@@ -59,13 +59,13 @@
 
 #include "asterisk.h"
 
+#include "asterisk/stringfields.h"
 #include "asterisk/cel.h"
 #include "asterisk/channel.h"
 #include "asterisk/config_options.h"
 #include "asterisk/json.h"
 #include "asterisk/module.h"
 #include "asterisk/amqp.h"
-#include "asterisk/stringfields.h"
 
 #define CEL_NAME "AMQP"
 #define CONF_FILENAME "cel_amqp.conf"

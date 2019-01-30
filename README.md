@@ -4,16 +4,6 @@ This was originally taken from this reviewboard https://reviewboard.asterisk.org
 
 Make sure you have the Asterisk header files along with the header files from https://github.com/wazo-pbx/wazo-res-amqp
 
-For now you will need to make one modification to asterisk/cel.h
-
-Add the line
-
-    #include "asterisk/stringfields.h"
-
-After
-
-    #include "asterisk/event.h"
-
 To install
 
     apt-get install librabbitmq-dev
